@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    background-color: rgb(38, 38, 38);
+    color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+h1 {
+    margin: 0;
+}
+
+img {
+    height: 10rem;
+    width: 10rem;
+    margin-bottom: 2rem;
+}
+
+.row {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.row input {
+    background-color: rgb(51, 51, 51);
+    border-style: solid;
+    border-color: rgb(72, 72, 72);
+    padding: 1rem;
+    width: 18rem;
+    border-radius: 5px;
+    color: white;
+}
+
+.row input:focus {
+    outline: none;
+}
+
+button {
+    height: 100%;
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.699);
+    cursor: pointer;
+}
+
+.task {
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    gap: 4rem;
+    align-items: start;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 7px;
+    width: 35rem;
+}
+
+.task p {
+    margin: 0;
+    max-width: 25rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.task img {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    filter: invert(60%);
+}
+
+.disable {
+    background-color: gray;
+}
+
+a {
+    cursor: pointer;
+    margin: 0;
+}
+
+.task input {
+    background-color: rgb(51, 51, 51);
+    border-style: solid;
+    border-color: rgb(72, 72, 72);
+    width: 25rem;
+    height: 2rem;
+    border-radius: 5px;
+    color: white;
+    margin: 0;
+    padding: 1rem;
+    outline: none;
+}
