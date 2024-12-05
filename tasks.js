@@ -17,7 +17,7 @@ function generateTasks() {
                 <input value="${value}">
                 <div class="row" style="gap: 1rem;">
                     <a class="done">
-                        <img src="../assets/done.png">
+                        <img src="./assets/done.png">
                     </a>
                 </div>
             </div>
@@ -30,10 +30,10 @@ function generateTasks() {
                 <p>${task}</p>
                 <div class="row"  style="gap: 1rem;">
                     <a class="edit">
-                        <img src="../assets/pencil.png">
+                        <img src="./assets/pencil.png">
                     </a>
                     <a class="delete">
-                        <img src="../assets/close.png">
+                        <img src="./assets/close.png">
                     </a>
                 </div>
             </div>
